@@ -5,6 +5,7 @@ denalddemirxhiu.github.io/Colorify
   ### Proof of purchase of Raspberry Pi:
   ![Raspberry Pi Proof of Purchase](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Raspberry%20Pi%20Proof%20of%20Purchase.png)
   
+  
   ### Proof of purchase of ISL29125 Colour Sensor:
   ![ISL29125 Colour Sensor Proof of Purchase](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/RBG%20Color%20Sensor%20ISL29125%20Proof%20of%20Purchase.png)
   
