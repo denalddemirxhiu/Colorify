@@ -2,7 +2,8 @@
 denalddemirxhiu.github.io/Colorify
 
 ## October 2nd, 2018
-  Proof of purchase of components:
+  ### Proof of purchase of Raspberry Pi:
+  [](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Raspberry%20Pi%20Proof%20of%20Purchase.png)
   
 
 ## September 25th, 2018
