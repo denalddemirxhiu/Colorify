@@ -3,7 +3,8 @@ denalddemirxhiu.github.io/Colorify
 
 ## October 16th, 2018
   ### Group Pseudo Code Assignment
-  Met with the first year students and helped them write the pseudo code for my third year capstone project
+  Met with the first year students and helped them write the pseudo code for my third year capstone project. Provided the System UML Diagram
+  ![System UML Diagram](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20UML%20Diagram.pdf)
 
 ## October 2nd, 2018
   ### Proof of purchase of Raspberry Pi:
