@@ -1,6 +1,10 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## October 16th, 2018
+  ### Group Pseudo Code Assignment
+  Met with the first year students and helped them write the pseudo code for my third year capstone project
+
 ## October 2nd, 2018
   ### Proof of purchase of Raspberry Pi:
   ![Raspberry Pi Proof of Purchase](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Raspberry%20Pi%20Proof%20of%20Purchase.png)
