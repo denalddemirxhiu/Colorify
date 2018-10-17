@@ -1,13 +1,18 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## October 16th, 2018
+  ### Group Pseudo Code Assignment
+  Met with the first year students and helped them write the pseudo code for my third year capstone project
+
 ## October 2nd, 2018
   ### Proof of purchase of Raspberry Pi:
-  ![Raspberry Pi Proof of Purchase](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Raspberry%20Pi%20Proof%20of%20Purchase.png)
+  ![Raspberry Pi Proof of Purchase](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Raspberry%20Pi%20Proof%20of%20Purchase.png)
+  
   
   ### Proof of purchase of ISL29125 Colour Sensor:
-  ![ISL29125 Colour Sensor Proof of Purchase](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RBG%20Color%20Sensor%20ISL29125%20Proof%20of%20Purchase.png)
-
+  ![ISL29125 Colour Sensor Proof of Purchase](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/RBG%20Color%20Sensor%20ISL29125%20Proof%20of%20Purchase.png)
+  
 ## September 25th, 2018
   Provided Budget. Can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
