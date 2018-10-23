@@ -5,10 +5,10 @@ denalddemirxhiu.github.io/Colorify
   ### Breadboarding Milestone
   At this point the Raspberry Pi was hooked up to the sensor via jumper wires. Below are the images that provide proof that the Raspberry Pi was connected to the sensor and it recognized the sensor using the i2cdetect command.
   The sensor was connected to the Rasberry Pi using the following pins:
-      * PIN 1 (3.3V) - connected to 3.3 V pin in the sensor with an orange jumper wire
-      * PIN 3 (SDA1) - connected to SDA pin in the sensor with a blue jumper wire
-      * PIN 5 (SCL1) - connected to the SCL pin in the sensor with a brown jumper wire
-      * PIN 6 (GND) - connected to the GND pin in the sensor with a black jumper wire
+      - PIN 1 (3.3V) - connected to 3.3 V pin in the sensor with an orange jumper wire
+      - PIN 3 (SDA1) - connected to SDA pin in the sensor with a blue jumper wire
+      - PIN 5 (SCL1) - connected to the SCL pin in the sensor with a brown jumper wire
+      - PIN 6 (GND) - connected to the GND pin in the sensor with a black jumper wire
   
   ### Sensor Hookup
   ![Raspberry Pi Breadboard Sensor Hookup](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPi-Sensor-Wired.png)
