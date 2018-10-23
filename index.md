@@ -33,7 +33,8 @@ denalddemirxhiu.github.io/Colorify
   
   
 ## October 9th, 2018
-### Reading week holiday
+
+## Reading week holiday
   
 ## October 2nd, 2018
 ### Proof of purchase of Raspberry Pi:
