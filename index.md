@@ -20,7 +20,7 @@ denalddemirxhiu.github.io/Colorify
   We just finished the Breadboarding milestone which shows that based on the project planned schedule I am currently on schedule. For the moment I am working to create the diagram for the PCB in Fritzing which should be completed by next week. As soon as I get the PCB design completed I will send the files to Vlad and Kelly in the Prototype Lab (J233). The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
   
   ### Budget Update
-  Currently there are no changes to the budget, except for the parts that have arrived. All the parts that I ordered have arrived and I am currentlyt no planning to buy any extra parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx) 
+  Currently there are no changes to the budget, except for the parts that have arrived. All the parts that I ordered have arrived and I am not planning to buy any extra parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx) 
   
   ### Resources used to wire and connect to the sensor
   - Raspberry Solutions website that shows the pinout of the Raspberry Pi 3B+ can be found [here](https://www.raspberry-solutions.com/connect-sensor-to-raspberry-pi/)  
