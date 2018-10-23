@@ -17,8 +17,8 @@ denalddemirxhiu.github.io/Colorify
   ![Raspberry Pi i2cdetect proof](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/i2cDetect.png)
   
   ### Resources used to wire and connect to the sensor
-  - Raspberry Solutions website that shows the pinout of the Raspberry Pi 3B+ can be found [here] (https://www.raspberry-solutions.com/connect-sensor-to-raspberry-pi/)  
-  - Sparkfun guide that shows the step by step tutorial on how to hookup the ISL29125 sensor can be found [here] (https://learn.sparkfun.com/tutorials/isl29125-rgb-light-sensor-hookup-guide/hardware-overview)
+  - Raspberry Solutions website that shows the pinout of the Raspberry Pi 3B+ can be found [here](https://www.raspberry-solutions.com/connect-sensor-to-raspberry-pi/)  
+  - Sparkfun guide that shows the step by step tutorial on how to hookup the ISL29125 sensor can be found [here](https://learn.sparkfun.com/tutorials/isl29125-rgb-light-sensor-hookup-guide/hardware-overview)
   
 ## October 16th, 2018
   ### Group Pseudo Code Assignment
