@@ -1,6 +1,13 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## October 23rd, 2018
+  ### Breadboarding Milestone
+  At this point the Raspberry Pi was hooked up to the sensor via jumper wires. Below are the images that provide proof that the Raspberry Pi was connected to the sensor and it recognized it using the i2cdetect command.
+  ![Raspberry Pi Breadboard Sensor Hookup](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPi-Sensor-Wired.png)
+  
+  ![Raspberry Pi i2cdetect proof](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/i2cDetect.png)
+  
 ## October 16th, 2018
   ### Group Pseudo Code Assignment
   Met with the first year students and helped them write the pseudo code for my third year capstone project. Provided the System UML Diagram which can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20UML%20Diagram.pdf)
