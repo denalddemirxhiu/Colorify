@@ -2,7 +2,7 @@
 denalddemirxhiu.github.io/Colorify
 
 ## October 23rd, 2018
-  ### Breadboarding Milestone
+### Breadboarding Milestone
   At this point the Raspberry Pi was hooked up to the sensor via jumper wires. Below are the images that provide proof that the Raspberry Pi was connected to the sensor and it recognized the sensor using the i2cdetect command.
   The sensor was connected to the Rasberry Pi using the following pins:  
 - PIN 1 (3.3V) - connected to 3.3 V pin in the sensor with an orange jumper wire  
@@ -10,16 +10,16 @@ denalddemirxhiu.github.io/Colorify
 - PIN 5 (SCL1) - connected to the SCL pin in the sensor with a brown jumper wire  
 - PIN 6 (GND) - connected to the GND pin in the sensor with a black jumper wire  
   
-  ### Sensor Hookup (Breadboard wiring)
+### Sensor Hookup (Breadboard wiring)
   ![Raspberry Pi Breadboard Sensor Hookup](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPi-Sensor-Wired.png)
   
-  ### i2cDetect Proof that shows the address of the sensor 0x44
+### i2cDetect Proof that shows the address of the sensor 0x44
   ![Raspberry Pi i2cdetect proof](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/i2cDetect.png)
   
-  ### Project Schedule Update
+### Project Schedule Update
   We just finished the Breadboarding milestone which shows that based on the project planned schedule I am currently on schedule. For the moment I am working to create the diagram for the PCB in Fritzing which should be completed by next week. As soon as I get the PCB design completed I will send the files to Vlad and Kelly in the Prototype Lab (J233). The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
   
-  ### Budget Update
+### Budget Update
   Currently there are no changes to the budget, except for the parts that have arrived. All the parts that I ordered have arrived and I am not planning to buy any extra parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx) 
   
   ### Resources used to wire and connect to the sensor
