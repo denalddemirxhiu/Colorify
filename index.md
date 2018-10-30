@@ -3,6 +3,27 @@ denalddemirxhiu.github.io/Colorify
 
 ## October 23rd, 2018
 
+### PCB Designed
+At this point the PCB design was finished and the gerber files were sent to the Prototype Lab. 
+Here are some images displaying the fritzing file work on the breadboard, schematic and PCB design:
+
+#### Breadboard
+![Breadboard](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/ISL29125_breadboard.png)
+
+#### Schematic
+![Schematic](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/ISL29125_Schematic.png)
+
+#### PCB Design
+![PCB Design](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/ISL29125_PCB.png)
+
+### Budget Update
+There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+#### Project Schedule Update
+According to the project schedule we have completed the PCB design on time therefore we are on schedule. Next week is the PCB soldering Milestone therefore there should be updates next week. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+## October 23rd, 2018
+
 ### Breadboarding Milestone
   At this point the Raspberry Pi was hooked up to the sensor via jumper wires. Below are the images that provide proof that the Raspberry Pi was connected to the sensor and it recognized the sensor using the i2cdetect command.
   The sensor was connected to the Rasberry Pi using the following pins:  
