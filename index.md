@@ -19,7 +19,7 @@ Here are some images displaying the fritzing file work on the breadboard, schema
 ### Budget Update
 There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
-#### Project Schedule Update
+### Project Schedule Update
 According to the project schedule we have completed the PCB design on time therefore we are on schedule. Next week is the PCB soldering Milestone therefore there should be updates next week. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ## October 23rd, 2018
