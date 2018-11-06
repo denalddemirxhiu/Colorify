@@ -4,7 +4,7 @@ denalddemirxhiu.github.io/Colorify
 ## November 6th, 2018
 
 ### Updated PCB Design
-Today the PCB was soldered, but when asked for feedback I realized that the connections were upside down. The PCB design was updated on the Fritzing file, the files were sent to the prototype lab and they were updated on the Documentation folder in the repository. Below are the pictures of the soldered PCB vias that was designed improperly and the new Updated PCB design:
+Today the PCB vias were soldered, but when asked for feedback I realized that the connections on the PCB were upside down. The PCB design was updated on the Fritzing file, the files were sent to the prototype lab and they were updated on the Documentation folder in the repository. Below are the pictures of the soldered PCB vias on the improperly designed PCB and the new Updated PCB design:
 
 #### Soldered vias on the improperly designed PCB
 ![Via Soldered Top](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered1.png)
@@ -18,7 +18,7 @@ Today the PCB was soldered, but when asked for feedback I realized that the conn
 There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ### Project Schedule Update
-As of today we are one week behind on schedule since the PCB was not soldered. The updated design PCB will be soldered by Friday November 9th and be ready by next week. Next week is the PCB soldering Milestone therefore there should be a Project Report update next week. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
+As of today we are one week behind on schedule since the PCB was not soldered. The updated design PCB will be soldered by Friday November 9th and be ready by next week. Next week is the Power Up Milestone, therefore there should be a Project Report update and the Raspberry Pi should be reading data from my sensor. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
 
 ## October 23rd, 2018
 
