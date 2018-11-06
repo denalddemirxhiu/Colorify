@@ -6,11 +6,13 @@ denalddemirxhiu.github.io/Colorify
 ### Updated PCB Design
 Today the PCB was soldered, but when asked for feedback I realized that the connections were upside down. The PCB design was updated on the Fritzing file, the files were sent to the prototype lab and they were updated on the Documentation folder in the repository. Below are the pictures of the soldered PCB vias that was designed improperly and the new Updated PCB design:
 
-#### Soldered Vias
+#### Soldered vias on the improperly designed PCB
+![Via Soldered Top](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered1.png)
 
+![Via Soldered Bottom](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered2.png)
 
 #### Updated PCB Design
-
+![Updated PCB Design](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Updated%20PCB%20Design.png)
 
 ### Budget Update
 There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
