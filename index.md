@@ -1,6 +1,23 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## November 6th, 2018
+
+### Updated PCB Design
+Today the PCB was soldered, but when asked for feedback I realized that the connections were upside down. The PCB design was updated on the Fritzing file, the files were sent to the prototype lab and they were updated on the Documentation folder in the repository. Below are the pictures of the soldered PCB vias that was designed improperly and the new Updated PCB design:
+
+#### Soldered Vias
+
+
+#### Updated PCB Design
+
+
+### Budget Update
+There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+### Project Schedule Update
+As of today we are one week behind on schedule since the PCB was not soldered. The updated design PCB will be soldered by Friday November 9th and be ready by next week. Next week is the PCB soldering Milestone therefore there should be a Project Report update next week. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
+
 ## October 23rd, 2018
 
 ### PCB Designed
@@ -17,10 +34,10 @@ Here are some images displaying the fritzing file work on the breadboard, schema
 ![PCB Design](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/ISL29125_PCB.png)
 
 ### Budget Update
-There has been no budget update since I have not ordered any new parts. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+There has been no budget update since I have not ordered any new parts. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ### Project Schedule Update
-According to the project schedule we have completed the PCB design on time therefore we are on schedule. Next week is the PCB soldering Milestone therefore there should be updates next week. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+According to the project schedule we have completed the PCB design on time therefore we are on schedule. Next week is the PCB soldering Milestone therefore there should be updates next week. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
 
 ## October 23rd, 2018
 
