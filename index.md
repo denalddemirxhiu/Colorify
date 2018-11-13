@@ -16,10 +16,10 @@ Using Python 3 the sensor readings were obtained and printed on the terminal in 
 The respective pages from the datasheet that display information on this matter are 1, 5, and 15. The datasheet can be viewed [here](https://www.intersil.com/content/dam/Intersil/documents/isl2/isl29125.pdf)
 
 #### Colour samples used
-[!ColourSamples](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ColorSamples.png?raw=true)
+![ColourSamples](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ColorSamples.png?raw=true)
 
 #### Displaying Color Readings in the Terminal and the Window
-[!Displaying Colour Readings](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
+![Displaying Colour Readings](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
 
 ### Status Report
 
