@@ -6,7 +6,9 @@ denalddemirxhiu.github.io/Colorify
 ### PCB Soldered and Mounted on the board
 The PCB was re-designed, updated, printed and then soldered with the stackable headers in the respective places. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB mounted on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. This can be seen in the following pictures:
 
+![PCB with the Sensor](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPIwithPCB.png?raw=true)
 
+![PCB mounted on the Raspberry Pi](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SensorMountedOnTheBoard.png?raw=true)
 ### Sensor Readings and Output
 
 
