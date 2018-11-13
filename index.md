@@ -1,6 +1,26 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## November 13th, 2018
+
+### PCB Soldered and Mounted on the board
+The PCB was re-designed, updated, printed and then soldered with the stackable headers in the respective places. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB mounted on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. This can be seen in the following pictures:
+
+
+### Sensor Readings and Output
+
+
+### Status Report
+
+
+
+### Budget Update
+There has been no budget update since I have not ordered any new parts. Everything has been kept track of and reported properly. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+### Project Schedule Update
+The project is going on schedule as of this week. There were some drawbacks last week when trying to solder the designed PCB, but when carefully examining it, the connections were done incorrectly. The PCB was re-designed, updated, printed and then soldered on November 12, 2018. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB placed on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. In the next few weeks, the enclosure of the completed project is due, the presentation needs to be prepared for and the final results of the project need to be made, such as the build instructions and the repository. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
+
+
 ## November 6th, 2018
 
 ### Updated PCB Design
