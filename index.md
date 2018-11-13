@@ -21,10 +21,6 @@ The respective pages from the datasheet that display information on this matter 
 #### Displaying Color Readings in the Terminal and the Window
 ![Displaying Colour Readings](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
 
-### Status Report
-
-
-
 ### Budget Update
 There has been no budget update since I have not ordered any new parts. Everything has been kept track of and reported properly. The project budget can be viewed [here](https://github.com/denalddemirxhiu/ify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
