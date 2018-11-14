@@ -4,33 +4,33 @@ denalddemirxhiu.github.io/Colorify
 ## November 13th, 2018
 
 ### PCB Soldered and Mounted on the board
-The PCB was re-designed, updated, printed and then soldered with the stackable headers in the respective places. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB mounted on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. This can be seen in the following pictures:
+The PCB was re-designed, updated, printed and then soldered with the stackable headers in the respective places. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB mounted on the Raspberry PI, and verified that the program worked while the sensor was mounted on the PCB. This can be seen in the following pictures:
 
 ![PCB with the Sensor](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPIwithPCB.png?raw=true)
 
 ![PCB mounted on the Raspberry Pi](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SensorMountedOnTheBoard.png?raw=true)
 
 ### Sensor Readings and Output
-Using Python 3 the sensor readings were obtained and printed on the terminal in RGB format and in HEX format. The colour reading from the sensor was displayed in a window with the respective colour. The sensor readings are not fully accurate because the way that the Red, Green, and Blue photoresistors are placed in the sensor are in a box array where blue and red are always adjacent to each-other, but the green photoresistors are all together. The datasheet also provided explanation to why the colour readings of the green photoresistors are the most accurate, while the red and blue ones are not always accurate. Furthermore, the sensor is affected from light intensity and direct light from a light source affects the colour readings. One solution to this might be using an acryllic case that reflects some of the light and lets part of the light hit the sensor, but that is not definitive. More research has to be done in that matter. 
+Using Python 3 the sensor readings were obtained and printed on the terminal in RGB format and in HEX format. The colour readings from the sensor are displayed in a window with the respective colour. The sensor readings are not fully accurate because the way that the Red, Green, and Blue photoresistors are placed in the sensor appear to be in a box array where blue and red are always adjacent to each-other, but the green photoresistors are all together. The datasheet also provided this explanation to why the colour readings of the green photoresistors are the most accurate, while the red and blue ones are not always accurate. Furthermore, the sensor is affected by light intensity from direct light coming from a light source. One solution to this might be using an acryllic case that reflects some of the light and lets a portion of the light hit the sensor, but that is not definitive. More research has to be done in that matter. 
 
 The respective pages from the datasheet that display information on this matter are 1, 5, and 15. The datasheet can be viewed [here](https://www.intersil.com/content/dam/Intersil/documents/isl2/isl29125.pdf)
 
 #### Colour samples used
+These are colour samples I made to demonstrate the sensor reading colours.
+
 ![ColourSamples](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ColorSamples.png?raw=true)
 
 #### Displaying Color Readings in the Terminal and the Window
 ![Displaying Colour Readings](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
 
 ### Reading the sensor data
-To read the sensor data I used the open-source code obtained from [here](https://github.com/bhaskar-anil429/ISL29125/blob/master/ISL29125.py) and modified it to fit my needs. The problem with my sensor was that there was no library to read data from it; the resources from the company that produced the sensor were scarce. The only provided libraries were for Arduino, which are not compatible with the Raspberry PI. Therefore, I used [bhaskar-anil429](https://github.com/bhaskar-anil429) source code to work with. I tested the code first and after proving that it worked I made the necessary changes to fit the needs of my project. The program that I designed reads the color values continuously and prints them in a HEX and RGB format, as well as displaying them on another window. The source code for the Python script can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py)
-
+To read the sensor data I used the open-source code obtained from [here](https://github.com/bhaskar-anil429/ISL29125/blob/master/ISL29125.py) and modified it to fit my needs. The problem with my sensor was that there was no library to read data from it; the resources from the company that produced the sensor were scarce. The only provided libraries were for Arduino, which are not compatible with the Raspberry PI. Therefore, I used [bhaskar-anil429](https://github.com/bhaskar-anil429)'s source code to work with. I tested the code first and after proving that it worked I made the necessary changes to fit the needs of my project. The program that I designed reads the color values continuously and prints them in a HEX and RGB format, as well as displaying them on another window. The source code for the Python script can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py)
 
 ### Budget Update
 There has been no budget update since I have not ordered any new parts. Everything has been kept track of and reported properly. The project budget can be viewed [here](https://github.com/denalddemirxhiu/ify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ### Project Schedule Update
-The project is going on schedule as of this week. There were some drawbacks last week when trying to solder the designed PCB, but when carefully examining it, the connections were done incorrectly. The PCB was re-designed, updated, printed and then soldered on November 12, 2018. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB placed on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. In the next few weeks, the enclosure of the completed project is due, the presentation needs to be prepared for and the final results of the project need to be made, such as the build instructions and the repository. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
-
+The project is going on schedule as of this week. There were some drawbacks last week when trying to solder the designed PCB, but when carefully examining it, the connections were done incorrectly. The PCB was re-designed, updated, printed and then soldered on November 12, 2018. The PCB was checked for problems with a multimeter, the sensor was checked if it was working with the PCB placed on the Raspberry PI and verified that the program worked while the sensor was mounted on the PCB. In the next few weeks, the enclosure of the completed project is due, the presentation needs to be prepared for and the final results of the project need to be made, such as the build instructions. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
 
 ## November 6th, 2018
 
