@@ -21,6 +21,10 @@ The respective pages from the datasheet that display information on this matter 
 #### Displaying Color Readings in the Terminal and the Window
 ![Displaying Colour Readings](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
 
+### Reading the sensor data
+To read the sensor data I used the open-source code obtained from [here](https://github.com/bhaskar-anil429/ISL29125/blob/master/ISL29125.py) and modified it to fit my needs. The problem with my sensor was that there was no library to read data from it; the resources from the company that produced the sensor were scarce. The only provided libraries were for Arduino, which are not compatible with the Raspberry PI. Therefore, I used [bhaskar-anil429](https://github.com/bhaskar-anil429) source code to work with. I tested the code first and after proving that it worked I made the necessary changes to fit the needs of my project. The program that I designed reads the color values continuously and prints them in a HEX and RGB format, as well as displaying them on another window. The source code for the Python script can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py)
+
+
 ### Budget Update
 There has been no budget update since I have not ordered any new parts. Everything has been kept track of and reported properly. The project budget can be viewed [here](https://github.com/denalddemirxhiu/ify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
