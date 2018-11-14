@@ -1,3 +1,6 @@
+# Source code for reading colour data from ISL29125
+# Obtained from https://github.com/bhaskar-anil429/ISL29125/blob/master/ISL29125.py
+# Modified to fit Colorify Project needs
 import smbus
 import time
 from tkinter import *
