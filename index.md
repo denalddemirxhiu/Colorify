@@ -40,7 +40,7 @@ Today the PCB vias were soldered, but when asked for feedback I realized that th
 #### Soldered vias on the improperly designed PCB
 ![Via Soldered Top](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered1.png)
 
-![Via Soldered Bottom](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered2.png)
+![Via Soldered Bottom](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Via_soldered2.png)
 
 #### Updated PCB Design
 ![Updated PCB Design](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Updated%20PCB%20Design.png)
