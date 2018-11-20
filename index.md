@@ -38,9 +38,9 @@ The project is going on schedule as of this week. There were some drawbacks last
 Today the PCB vias were soldered, but when asked for feedback I realized that the connections on the PCB were upside down. The PCB design was updated on the Fritzing file, the files were sent to the prototype lab and they were updated on the Documentation folder in the repository. Below are the pictures of the soldered PCB vias on the improperly designed PCB and the new Updated PCB design:
 
 #### Soldered vias on the improperly designed PCB
-![Via Soldered Top](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered1.png)
+<img src="https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered1.png" alt="Via Soldered Top">
 
-![Via Soldered Bottom](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered2.png)
+<img src="https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Via_soldered2.png" alt="Via Soldered Bottom">
 
 #### Updated PCB Design
 ![Updated PCB Design](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Updated%20PCB%20Design.png)
