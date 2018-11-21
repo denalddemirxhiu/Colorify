@@ -15,7 +15,7 @@ Since the ISL29125 sensor mounted on the PCB fits perfectly on the case that cam
 ![The completed case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20With%20Acrylic%20Top.png)
 
 ### Budget Update
-There has been no budget update as of this date. The project budget can be viewed [here]https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+There has been no budget update as of this date. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ### Project Schedule Update
 The progress of the report has been going on schedule. This week the top part of the acrylic case was properly designed, laser cut and assembled. Next week the presentations are due and the following weeks the build instructions should be ready. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
