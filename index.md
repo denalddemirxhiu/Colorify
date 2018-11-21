@@ -1,6 +1,26 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## November 20th, 2018 (Case Design)
+
+### Designed and laser cut the acrylic top case
+Since the ISL29125 sensor mounted on the PCB fits perfectly on the case that came with the Raspberry Pi 3B+, I did not have to design a case from scratch. However I needed to design the top part for the case to completely enclose the sensor without affecting the sensor's ability to obtain readings. The top part of the case was made of acrylic sheets that were laser cut and stacked on top of one another to create a simple clear enclosure. A set of clamps were designed to hold the case in place, but unfortunately due to the Prototype Lab's working hours I couldn't laser cut the clamps.
+
+The design files for the stacks of acrylic needed to make the top part of the case can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Top%20Case%20Design%20Files.cdr)
+The design files for the clamps to hold the case in place can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Case%20Clamps.cdr)
+
+#### Acrylic Case
+![Acrylic Top Case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Acrylic%20Top.png)
+
+![The completed case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20With%20Acrylic%20Top.png)
+
+### Budget Update
+There has been no budget update as of this date. This week the top part of the acrylic case was properly designed, laser cut and assembled. Next week the presentations are due and the following weeks the build instructions should be ready. The project budget can be viewed [here](https://github.com/denalddemirxhiu/ify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+### Project Schedule Update
+The schedule has been followed as of this date. The he project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
+
+
 ## November 13th, 2018
 
 ### PCB Soldered and Mounted on the board
