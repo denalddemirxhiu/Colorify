@@ -12,7 +12,11 @@ Since the ISL29125 sensor mounted on the PCB fits perfectly on the case that cam
 #### Acrylic Case
 ![Acrylic Top Case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Acrylic%20Top.png)
 
-![The completed case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20With%20Acrylic%20Top.png)
+![The case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20With%20Acrylic%20Top.png)
+
+### Completed Case with clamps
+
+![The completed case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20Completed.png)
 
 ### Budget Update
 There has been no budget update as of this date. The project budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
