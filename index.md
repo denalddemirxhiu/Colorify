@@ -1,6 +1,15 @@
 # Colorify
 denalddemirxhiu.github.io/Colorify
 
+## November 27th, 2018 (Presentation)
+The project was presented to the class today. The presentation can be found here [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Presentation.pptx)
+
+### Budget Update
+There has been no budget update as of this date. The budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+
+### Project Schedule Update
+The progress of the project has been going on schedule. There have been no setbacks. The next milestone is the build instructions. The project schedule can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Capstone%20Gantt%20Schedule.mpp)
+
 ## November 20th, 2018 (Case Design)
 
 ### Designed and laser cut the acrylic top case
