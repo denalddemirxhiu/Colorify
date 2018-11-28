@@ -2,7 +2,7 @@
 denalddemirxhiu.github.io/Colorify
 
 ## November 27th, 2018 (Presentation)
-The project was presented to the class today. The presentation can be found here [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Presentation.pptx)
+The project was presented to the class today. The presentation can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Presentation.pptx)
 
 ### Budget Update
 There has been no budget update as of this date. The budget can be viewed [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
