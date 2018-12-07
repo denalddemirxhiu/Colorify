@@ -17,10 +17,23 @@ The devices and components that we will need to complete the project, as well as
 | Soldering Iron                            | Canadian Tire - http://www.canadiantire.ca/en/pdp/weller-25w-soldering-iron-kit-0586309p.html#srp                |
 | Digital Multimeter                        | Canadian Tire - http://www.canadiantire.ca/en/pdp/autoranging-digital-multimeter-0520052p.0520052.html           |
 | Clear Acrylic 12"x24"                     | Johnston Industrial - http://www.johnstonplastics.com/toronto/                                                   |
+| Computer Monitor                          |                                                                                                                  |
+| Wired Keyboard                            |                                                                                                                  |
+| Wired Mouse                               |                                                                                                                  |
 
-For a more detailed bill of materials with the respective prices, sources, part number, you can click [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+Note: The Raspberry Pi 3B+ Starter Kit comes with everything you need such as:
+ - Standard Power Supply
+ - 16 GB microSD card
+ - Black enclosure
+ - microSD USB adapter
+ - HDMI Cable
+
+If you would like to purchase the above items separately make sure they are bought from a reliable source!
+
+For a more detailed bill of materials with the component prices, sources, part numbers you can click [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ## Time Commitment
+This project should not take more than a weekend to be completed after all the components have been gathered. The maximum time commitment should take about 6-8 hours to complete. This can be divided as followed:
 
 ## Mechanical Assembly
 
