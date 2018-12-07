@@ -18,7 +18,7 @@ The devices and components that we will need to complete the project, as well as
 | Digital Multimeter                        | Canadian Tire - http://www.canadiantire.ca/en/pdp/autoranging-digital-multimeter-0520052p.0520052.html           |
 | Clear Acrylic 12"x24"                     | Johnston Industrial - http://www.johnstonplastics.com/toronto/                                                   |
 
-For a more detailed bill of materials with the respective prices, sources, part number, you can click [TODO]
+For a more detailed bill of materials with the respective prices, sources, part number, you can click [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
 
 ## Time Commitment
 
