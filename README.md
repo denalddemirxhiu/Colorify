@@ -95,6 +95,10 @@ After the PCB has been soldered correctly and the sensor has been verified to wo
 
 ![Mounted PCB Sensor](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SensorMountedOnTheBoard.png?raw=true)
 
+The case that comes with the Raspberry PI 3B+ can fit the PCB board mounted in it. For that reason we don't need to make any specific enclosure for it.
+
+![Case with Sensor](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/PCB%20Mounted%20in%20Case.jpg)
+
 After the PCB and the sensor is mounted on the board, it can be powered up and verified that the Raspberry PI recognizes the sensor using the same i2cdetect command as above:
 
        sudo i2cdetect -y 1
