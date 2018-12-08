@@ -32,7 +32,7 @@ Note: The Raspberry Pi 3B+ Starter Kit comes with everything you need such as:
 
 If you would like to purchase the above items separately make sure they are bought from a reliable source!
 
-For a more detailed bill of materials with the component prices, sources, part numbers you can click [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx)
+For a more detailed bill of materials with the component prices, sources, part numbers you can click [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Colorify%20Budget.xlsx). The total amount of money needed to be spent for this project is about $230 (CAD).
 
 ## Time Commitment
 This project should not take more than a weekend to be completed after all the components have been gathered. Overall, it should take about 5-7 hours to complete (considering that the PCB has been printed successfully, otherwise the PCB should take about a half-day to be printed). This can be divided in these steps:
@@ -54,7 +54,6 @@ For this portion you will need a monitor compatible with HDMI, a wired keyboard 
  After these steps have been followed carefully, we can move on to the mechanical assembly.
  
 ## Mechanical Assembly
-
 To get started, we need to solder the pins to the ISL29125 RGB Light sensor. To do so we need to have 5 pins for each of the holes in the sensor and we need to have the soldering equipment ready. The soldering process needs to be careful as to not short any of the pins with each other which damage the sensor. After the pins have been soldered to the sensor, it should look something like this:
 
 ![Sensor Soldered](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Sensor%20with%20pins.png?raw=true)
@@ -71,7 +70,7 @@ After the appropriate connections have been made, the wiring should look somethi
 
 After powering on the Raspberry PI we need to verify that the sensor is being recognized. With the wiring still in place launch the terminal window and type this command:
 
- sudo i2cdetect -y 1
+      sudo i2cdetect -y 1
  
 The command will display the sensor in a table like this:
 ![i2cDetect](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/i2cDetect.png)
@@ -81,7 +80,6 @@ NOTE: If you don't see the sensor's I2C address in the table (0x44), then verify
 After all the steps in this section have been verified, you can move on to the next step.
 
 ## PCB Soldering
-
 The PCB design used to print the PCB can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ISL29125.fz.fzz). The design was made using [Fritzing](http://fritzing.org/home/).
 
 After the PCB has been printed, we are going to solder the 5 pin stackable header, and the 20 pin stackable header into the PCB. Before we do that, we are going to solder the VIAs (small holes with connections on both sides). To do that we are going to use some hookup wire, which we are going to strip and place in the VIAs. After verifying that the VIAs have been soldered, we can insert the stackable headers in the appropriate pins. The 5-pin header is going to be inserted in the side where the labels are found (GND, 3.3V, SDA, SCL). The 40-pin header is going to be inserted on the other side with the pins facing the side the labels are found. After the pins have been soldered we can verify if the connections have been correctly made by using a multimeter. After all the work has been finished the PCB should look something like this:
@@ -92,8 +90,37 @@ After the PCB has been printed, we are going to solder the 5 pin stackable heade
 ### PCB Soldered Back
 ![PCB Back](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/PCB%20Soldered%20Back.jpg)
 
-
 ## Power Up
+After the PCB has been soldered correctly and the sensor has been verified to work with the Raspberry PI, it is time for the power up portion. With the Raspberry PI powered off, the PCB is going to be mounted on the Raspberry PI using the 40-pin stackable header and the sensor is going to be mounted on the 5-pin header on the PCB. After the mounting process is done it should look something like this:
+
+![Mounted PCB Sensor](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SensorMountedOnTheBoard.png?raw=true)
+
+After the PCB and the sensor is mounted on the board, it can be powered up and verified that the Raspberry PI recognizes the sensor using the same i2cdetect command as above:
+
+       sudo i2cdetect -y 1
+
+Using the supplied script that can be downloaded from [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py), you can test the sensor reading actual colour values from the environment. The code uses Python 3 and can be compiled and run using the default python editor in the Raspberry PI, Thonny. If everything has been done correctly you should see an output on the screen like this:
+
+![Sensor Output](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/SampleReadingOutput.png?raw=true)
+
+Note: For the sensor to read different colour values you might want to use a plastic piece of paper (preferrably with colour), however if it is transparent you can use a Sharpie with some different colours to simulate different colour readings. This is one way to test if the sensor is reading values correctly
+
+![Colour samples](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/ColourSamples.jpg)
+
+## Enclosure
+
+The enclosure for this project does not require any custom case to be made. In fact the case that comes with the Raspberry PI 3B+ can hold the PCB and the sensor intact. The only part that is needed for this enclosure is the top part which ensures that the sensor is kept intact and with no contact to materials that might damage it. The enclosure also requires a set of 4 clamps that hold everything together. Both the top enclosure sheets and the clamps are made of acrylic and can easily be laser cut in about 1 minute. The files for the top enclosure sheets can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Top%20Case%20Design%20Files.cdr) and the file for the clamps can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Case%20Clamps.cdr).
+
+The top enclosure part has 5 acrylic frames and one acrylic top that can be stacked together. To glue the components together you might use any transparent glue that you can think of, but if you can find some Liquid Cement for plastic that would work too. After the acrylic sheets have been stacked together and have been glued, the top part of the case should look something like this:
+
+### Acrylic Top
+![Top Case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Acrylic%20Top.png)
+
+### Case with Acrylic sheets on top
+![Completed Case](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Case%20With%20Acrylic%20Top.png?raw=true)
+
+### Completed Case
+![Completed Case with Clamps](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20Completed.png)
 
 ## Unit Testing
 
