@@ -1,7 +1,13 @@
 # Colorify Build Instructions
 
 ## Introduction
-Colorify is a creative project that allows the user to scan colours in the environment with the help of a colour sensor. The project is meant to detect colours so that they can be used for illustration and graphic design purposes. At the end of this instructive tutorial, we will be able to detect colours in the environment as well as display the colour readings in RGB and HEX format for the user to use freely.  
+Colorify is a creative project that allows the user to scan colours in the environment with the help of a colour sensor. The project is meant to detect colours so that they can be used for illustration and graphic design purposes. At the end of this instructive tutorial, we will be able to detect colours in the environment as well as display the colour readings in RGB and HEX format for the user to use freely.
+
+### System Diagram
+![System Diagram](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20Diagram.png?raw=true)
+
+### Capstone UML Diagram
+![Capstone UML Diagram](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20UML%20Diagram.png?raw=true)
 
 ## Bill of Materials
 The devices and components that we will need to complete the project, as well as the sources where they can be found are provided below for reference
