@@ -1,7 +1,7 @@
 # Colorify Build Instructions
 
 ## Introduction
-Colorify is a creative project that allows the user to scan colours in the environment with the help of a colour sensor. The project is meant to detect colours so that they can be used for illustration and graphic design purposes. At the end of this instructive tutorial, we will be able to detect colours in the environment as well as display the colour readings in RGB and HEX format for the user to use freely.
+Colorify is a creative project that allows the user to scan colours in the environment with the help of a colour sensor. The project is meant to detect colours so that they can be used for illustration and graphic design purposes. At the end of this instructive tutorial, we will be able to detect colours in the environment as well as display the colour readings in RGB and HEX format for the user to use freely. Below, the diagrams provide a visual way on how the project works, and how it might be integrated with a database and a mobile application for further development.
 
 ### System Diagram
 ![System Diagram](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20Diagram.png?raw=true)
@@ -23,8 +23,8 @@ The devices and components that we will need to complete the project, as well as
 | Soldering Iron                            | Canadian Tire - http://www.canadiantire.ca/en/pdp/weller-25w-soldering-iron-kit-0586309p.html#srp                |
 | Digital Multimeter                        | Canadian Tire - http://www.canadiantire.ca/en/pdp/autoranging-digital-multimeter-0520052p.0520052.html           |
 | Clear Acrylic 12"x24"                     | Johnston Industrial - http://www.johnstonplastics.com/toronto/                                                   |
-| Stackable Header                               |                                                                                                                  |
-| Stackable Header                               |                                                                                                                  |
+| 40-pin Stackable Header                   | Adafruit - https://www.adafruit.com/product/1979                                                                |
+| 32-pin Stackable Header                   |  Sparkfun - https://www.sparkfun.com/products/14311                                                            |
 | Computer Monitor                          |                                                                                                                  |
 | Wired Keyboard                            |                                                                                                                  |
 | Wired Mouse                               |                                                                                                                  |
