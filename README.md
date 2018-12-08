@@ -57,7 +57,7 @@ For this portion you will need a monitor compatible with HDMI, a wired keyboard 
 
 To get started, we need to solder the pins to the ISL29125 RGB Light sensor. To do so we need to have 5 pins for each of the holes in the sensor and we need to have the soldering equipment ready. The soldering process needs to be careful as to not short any of the pins with each other which damage the sensor. After the pins have been soldered to the sensor, it should look something like this:
 
-// TODO insert image here
+![Sensor Soldered](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Sensor%20with%20pins.png?raw=true)
 
 Secondly, we need to connect the sensor to the Raspberry PI 3B+ to test if it works properly. It is a good idea to power down the Raspberry PI before continuing with this step. First, we place already soldered sensor in the breadboard. Using [this](https://www.theengineeringprojects.com/wp-content/uploads/2018/07/introduction-to-raspberry-pi-3-b-plus-2.png) diagram, we are going to make the appropriate connections from the sensor to the pin headers of the Raspberry PI. For the connections we are going to use the Male-to-Female jumper wires. Since the sensor has labeled pins, we are going to make these connections:
  - PIN 1 (3.3V) of the Raspberry PI should be connected to the pin labeled as 3.3V in the sensor
@@ -82,7 +82,17 @@ After all the steps in this section have been verified, you can move on to the n
 
 ## PCB Soldering
 
-After the 
+The PCB design used to print the PCB can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ISL29125.fz.fzz). The design was made using [Fritzing](http://fritzing.org/home/).
+
+After the PCB has been printed, we are going to solder the 5 pin stackable header, and the 20 pin stackable header into the PCB. Before we do that, we are going to solder the VIAs (small holes with connections on both sides). To do that we are going to use some hookup wire, which we are going to strip and place in the VIAs. After verifying that the VIAs have been soldered, we can insert the stackable headers in the appropriate pins. The 5-pin header is going to be inserted in the side where the labels are found (GND, 3.3V, SDA, SCL). The 40-pin header is going to be inserted on the other side with the pins facing the side the labels are found. After the pins have been soldered we can verify if the connections have been correctly made by using a multimeter. After all the work has been finished the PCB should look something like this:
+
+### PCB Soldered Front
+![PCB Front](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/PCB%20Soldered%20Front.jpg)
+
+### PCB Soldered Back
+![PCB Back](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/PCB%20Soldered%20Back.jpg)
+
+
 ## Power Up
 
 ## Unit Testing
