@@ -51,7 +51,7 @@ For this portion you will need a monitor compatible with HDMI, a wired keyboard 
  4. After this process has been finished successfully plug the microSD card in the Raspberry PI 3B+, connect the HDMI cable, the mouse, and the keyboard and power the device on.
  5. After finishing the setup and while on the Desktop we need to change the I2C and VNC interfaces to enabled. This can be done by going to the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces, then set VNC to enabled and I2C to enabled
  
- After these steps have been followed we can move on to the mechanical assembly.
+ After these steps have been followed carefully, we can move on to the mechanical assembly.
  
 ## Mechanical Assembly
 
@@ -67,7 +67,7 @@ Secondly, we need to connect the sensor to the Raspberry PI 3B+ to test if it wo
  
 After the appropriate connections have been made, the wiring should look something like this:
 
-// TODO insert image here
+![Sensor Wiring](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/RaspberryPi-Sensor-Wired.png?raw=true)
 
 After powering on the Raspberry PI we need to verify that the sensor is being recognized. With the wiring still in place launch the terminal window and type this command:
 
@@ -78,10 +78,11 @@ The command will display the sensor in a table like this:
 
 NOTE: If you don't see the sensor's I2C address in the table (0x44), then verify the connections, verify that I2C Interface is enabled, and as a final resort restart the Raspberry PI.
 
-After all the steps in this section have been verified you can move on to the next step.
+After all the steps in this section have been verified, you can move on to the next step.
 
 ## PCB Soldering
 
+After the 
 ## Power Up
 
 ## Unit Testing
