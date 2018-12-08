@@ -76,8 +76,9 @@ After powering on the Raspberry PI we need to verify that the sensor is being re
 The command will display the sensor in a table like this:
 ![i2cDetect](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/i2cDetect.png)
 
-NOTE: If you don't see the sensor I2C address in the table (0x44), then verify the connections, verify that I2C Interface is enabled, and as a final resort restart the Raspberry PI.
+NOTE: If you don't see the sensor's I2C address in the table (0x44), then verify the connections, verify that I2C Interface is enabled, and as a final resort restart the Raspberry PI.
 
+After all the steps in this section have been verified you can move on to the next step.
 
 ## PCB Soldering
 
