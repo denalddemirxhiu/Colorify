@@ -86,7 +86,7 @@ NOTE: If you don't see the sensor's I2C address in the table (0x44), then verify
 After all the steps in this section have been verified, you can move on to the next step.
 
 ## PCB Soldering
-The PCB design used to print the PCB can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ISL29125.fz.fzz). The design was made using [Fritzing](http://fritzing.org/home/).
+The PCB design used to print the PCB can be found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/ISL29125.fz.fzz). The design was made using [Fritzing](http://fritzing.org/home/). To print the PCB you need to convert the provided files into Gerber files and send them to any production facility, as the files are industrially universal.
 
 After the PCB has been printed, we are going to solder the 5 pin stackable header, and the 20 pin stackable header into the PCB. Since none of the stackable headers we have is 5-pin we are going to break one of them into a 5-pin, which can easily be done using a set of pliers. After we do that, we are going to solder the VIAs (small holes with connections on both sides). To do that we are going to use some hookup wire, which we are going to strip and place in the VIAs. After verifying that the VIAs have been soldered, we can insert the stackable headers in the appropriate pins. The 5-pin header is going to be inserted in the side where the labels are found (GND, 3.3V, SDA, SCL). The 40-pin header is going to be inserted on the other side with the pins facing the side the labels are found. After the pins have been soldered we can verify if the connections have been correctly made by using a multimeter. After all the work has been finished the PCB should look something like this:
 
@@ -132,6 +132,11 @@ The top enclosure part has 5 acrylic frames and one acrylic top that can be stac
 ### Completed Case
 ![Completed Case with Clamps](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Case%20Completed.png)
 
-## Unit Testing
+## Testing
+It is useful to test the hardware before testing the software side of the project. First when finishing the soldering of the PCB it is a good idea to check each connection between the appropriate pins. This part of the testing process can be performed using any conductive wire inserted in the stackable header for the pins we are going to use, and a multimeter to test if the connection is correct. If when testing the pins a open circuit is observed then the soldering should be checked and the appropriate measures should be taken.
+
+After testing the hardware we are going to test the software side. With the sensor plugged in the PCB, which should be inserted in the Raspberry PI with the help of the stackable header, we are going to compile and run the provided software for detecting color values and displaying them. 
+ - First, we need to check that the Raspberry PI can recognize the sensor mounted on the board. This can be done with the command: `i2cdetect -y 1`. If the sensor is not shown in the table output with the address 0x44 printed on the table, then the Raspberry PI cannot detect it. Make sure that the connections have been checked appropriately, the sensor is not damaged, and the I2C interface has been enabled in the Raspberry PI.
+ - Second, compile and run the python code found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py) using Thonny. The color readings should be displayed accordingly in RGB and HEX format in the console, while the color readings should also be displayed in a separate window. If there are problems with compilation and running the code, check if the source code is correct, check if Python 3 is correctly installed in the Raspberry PI, and as a last resort restart the device.
 
 
