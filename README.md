@@ -25,9 +25,9 @@ The devices and components that we will need to complete the project, as well as
 | Clear Acrylic 12"x24"                     | Johnston Industrial - http://www.johnstonplastics.com/toronto/                                                   |
 | 40-pin Stackable Header                   | Adafruit - https://www.adafruit.com/product/1979                                                                |
 | Arduino Stackable Header Kit              |  Sparkfun - https://www.sparkfun.com/products/10007                                                            |
-| Computer Monitor                          |                                                                                                                  |
-| Wired Keyboard                            |                                                                                                                  |
-| Wired Mouse                               |                                                                                                                  |
+| Computer Monitor                          |  Bestbuy - https://www.bestbuy.ca/en-ca/product/hewlett-packard-hp-21-5-fhd-60hz-7ms-gtg-ips-led-monitor-22vc-black-22vc/10514441.aspx?                                                                                                              |
+| Wired Keyboard                            |  Bestbuy - https://www.bestbuy.ca/en-ca/product/mmnox-mmnox-usb-keyboard-op004-english-op004/10383781.aspx?&cmp=knc-s-71700000022735665&gclid=CjwKCAiA9K3gBRA4EiwACEhFe3TcS5GJtncWi2ZyHx2JcIT2YdmtqwuIXsQ2FbTyfpRkxJ3cG1OAhRoCo4QQAvD_BwE&gclsrc=aw.ds                                                                                                     |
+| Wired Mouse                               |   Bestbuy - https://www.bestbuy.ca/en-ca/product/rapoo-optical-mouse-n1130-white/12966363.aspx?                                                                                                              |
 
 Note: The Raspberry Pi 3B+ Starter Kit comes with everything you need such as:
  - Standard Power Supply
