@@ -9,11 +9,12 @@ Colorify is a creative project that allows the user to scan colours in the envir
 ### Capstone UML Diagram
 ![Capstone UML Diagram](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/System%20UML%20Diagram.png?raw=true)
 
-#### Helpful Skills
+#### Helpful Skills for this project
  - Soldering
  - Raspberry PI knowledge
  - I2C knowledge
  - Python knowledge
+ - Breadboarding and wiring knowledge
 
 ## Bill of Materials
 The devices and components that we will need to complete the project, as well as the sources where they can be found are provided below for reference
