@@ -148,4 +148,8 @@ After testing the hardware we are going to test the software side. With the sens
  - First, we need to check that the Raspberry PI can recognize the sensor mounted on the board. This can be done with the command: `i2cdetect -y 1`. If the sensor is not shown in the table output with the address 0x44 printed on the table, then the Raspberry PI cannot detect it. Make sure that the connections have been checked appropriately, the sensor is not damaged, and the I2C interface has been enabled in the Raspberry PI.
  - Second, compile and run the python code found [here](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/readSensor.py) using Thonny. The color readings should be displayed accordingly in RGB and HEX format in the console, while the color readings should also be displayed in a separate window. If there are problems with compilation and running the code, check if the source code is correct, check if Python 3 is correctly installed in the Raspberry PI, and as a last resort restart the device.
 
-
+## Resources used
+ - Intersil Datasheet for ISL29125 found [here](https://www.intersil.com/content/dam/Intersil/documents/isl2/isl29125.pdf)
+ - Sparkfun ISL29125 hookup guide found [here](https://learn.sparkfun.com/tutorials/isl29125-rgb-light-sensor-hookup-guide?_ga=2.166805693.2081027499.1544412420-1494811950.1544240207)
+ - Soldering tutorial found [here](https://www.youtube.com/watch?v=Qps9woUGkvI)
+ 
