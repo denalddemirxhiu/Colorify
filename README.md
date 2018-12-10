@@ -132,6 +132,9 @@ The top enclosure part has 5 acrylic frames and one acrylic top that can be stac
 ### Acrylic Top
 ![Top Case](https://raw.githubusercontent.com/denalddemirxhiu/Colorify/master/Documentation/Acrylic%20Top.png)
 
+## Finishing it up
+By now the Raspberry PI should be in its black case that came with the Starter Kit. The PCB with the mounted sensor, will be inserted into the GPIO pins of the Raspberry PI. Next the Acrylic top will be placed on the top of the case with the 4 clamps inserted on each side to support the enclosure. After all the processes above these should be the final results:
+
 ### Case with Acrylic sheets on top
 ![Completed Case](https://github.com/denalddemirxhiu/Colorify/blob/master/Documentation/Case%20With%20Acrylic%20Top.png?raw=true)
 
